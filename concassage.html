@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/Source/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites - Gecamines</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Source/lOGO GECAMINES GRANULATS SVG.svg" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="apropos de nous.html">A propos</a></li>
+                    <li><a href="produits.html">Produits et Services</a></li>
+                    <li><a href="Concassage.html">Nos Sites</a></li>
+                    <li><a href="galerie.html">Galerie et Realisation</a></li>
+                    <li><a href="contact.html" class="card">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>NOS SITES DE CONCASSAGE</h1>
+
+    </section>
+
+<!-- Adresse des Sites -->
+
+<section class="concassage-content" >
+    <style>
+        .concassage-content{
+            width: 80%;
+            margin: auto;
+            padding: 60px 0;
+}
+        .rowconcassage{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+}
+
+.rowconcassage .carte{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    flex-wrap: wrap;
+}
+
+.rowconcassage .localisation iframe{
+    border-radius: 10px;
+    width: 100%;
+}
+.rowconcassage .localisation{
+    width: 50%;
+    text-align: center;
+}
+.rowconcassage .blogtext {
+    border-radius: 10px;
+    width: 45%;
+}
+.blogtext{
+    width: 50%;
+}
+
+@media (max-width:700px) {
+    .rowconcassage{
+        display: flex;
+    }
+    .carte{
+        flex-wrap: wrap;
+    }
+    .rowconcassage .localisation{
+    width: 100%;
+    text-align: right;
+}
+.rowconcassage .blogtext {
+    border-radius: 10px;
+    width: 100%;
+}
+.blog-right{
+    width: 100%;
+    flex-basis: 50%;
+
+}
+
+}
+
+    </style>
+    <div class="rowconcassage">
+        <!-- carte n1 -->
+        <div class="carte">
+            <div class="localisation">
+                <h2>GECAMINES | DIACK</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d9035.920925486571!2d-16.727059919847008!3d14.677792911810704!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2ssn!4v1676567512714!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="blogtext">
+                <h3>Information et Adresse</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas pariatur repudiandae delectus harum adipisci autem aut beatae molestiae rem. Ipsam velit laudantium vel quasi saepe eaque, molestias esse repellendus vero eos id distinctio, tempore, expedita libero similique quos delectus temporibus explicabo maxime? Alias dolore omnis repellat maxime dolorem officiis, sint cum, architecto quam quia cumque?</p>
+            </div>
+            <!-- Information -->
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+        <!-- carte n2 -->
+        <div class="carte">
+            
+            <div class="blogtext">
+                <h3>Information et Adresse</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas pariatur repudiandae delectus harum adipisci autem aut beatae molestiae rem. Ipsam velit laudantium vel quasi saepe eaque, molestias esse repellendus vero eos id distinctio, tempore, expedita libero similique quos delectus temporibus explicabo maxime? Alias dolore omnis repellat maxime dolorem officiis, sint cum, architecto quam quia cumque?</p>
+                </div>
+                
+                <div class="localisation">
+                    <h2>GECAMINES | BANDIA</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4518.925621976722!2d-16.99994247254288!3d14.630990280824532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2ssn!4v1676509762661!5m2!1sfr!2ssn"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            <!-- Information -->
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>A propos de Nous</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolore. <br> Reprehenderit molestiae consequatur iure accusamus! Eveniet commodi aut rerum nostrum modi, vitae nulla sapiente.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by <i class="fa fa-heart-o">MAMADOU_DIOUF</i></p>
+</section>
+<!-- javascript -->
+<script>
+    var navlinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>

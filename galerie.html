@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/Source/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Gecamines</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Source/lOGO GECAMINES GRANULATS SVG.svg" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="apropos de nous.html">A propos</a></li>
+                  <li><a href="produits.html">Produits et Services</a></li>
+                  <li><a href="Concassage.html">Nos Sites</a></li>
+                  <li><a href="galerie.html">Galerie et Realisation</a></li>
+                  <li><a href="contact.html" class="card">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>NOTRE GALERIE</h1>
+    </section>
+    <!-- galerie image et style-->
+<section  class="galerie-images">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+   --couleurPrincipal: #0004eb;
+   --colorLOgo: #27348b;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.heading h3,span{
+    color: var(--colorLOgo);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--colorLOgo);
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: var(--colorLOgo);
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+
+}
+
+
+
+
+
+
+
+} 
+    </style>
+    <div class="container">
+        <div class="heading">
+          <h3>Galerie <span>Photos</span></h3>
+        </div>
+        <div class="box">
+          
+          <div class="dream">
+            <img src="/galerie photos/1.jpg">
+             <img src="/galerie photos/2.jpg">
+              <img src="/galerie photos/3.jpg">
+               <img src="/galerie photos/4.jpg">
+                <img src="/galerie photos/5.jpg">
+                
+          </div>
+    
+            <div class="dream">
+            <img src="/galerie photos/6.jpg">
+             <img src="/galerie photos/7.jpg">
+              <img src="/galerie photos/8.jpg">
+               <img src="/galerie photos/9.jpg">
+                <img src="/galerie photos/10.jpg">
+                
+          </div>
+    
+            <div class="dream">
+            <img src="/galerie photos/11.jpg">
+             <img src="/galerie photos/12.jpg">
+              <img src="/galerie photos/13.jpg">
+               <img src="/galerie photos/14.jpg">
+                <img src="/galerie photos/15.jpg">
+            </div>
+    
+    
+        </div>
+        <div class="btn">
+          <a href="#">Voir+</a>
+        </div>
+    
+    
+    
+    
+    
+      </div>
+</section>
+    
+
+<!-- fin galerie images -->
+
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sunt doloribus quos corporis assumenda suscipit atque ab et labore! Omnis, incidunt quaerat, iure aspernatur impedit et est repudiandae perspiciatis fugiat nulla maxime rerum?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas dicta perspiciatis omnis? Maxime, commodi eius. Inventore in non, saepe, recusandae, magnam alias consequuntur adipisci nulla rerum explicabo velit! Quia vero sapiente officiis nostrum expedita cum voluptate nihil consequatur. Et voluptas deleniti itaque, doloremque provident id nesciunt dolorem? Officiis consequuntur explicabo vitae! Suscipit, labore nisi?</p>
+            <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi vero reprehenderit porro maxime quis nam exercitationem quasi, temporibus voluptatum necessitatibus totam ducimus excepturi harum magni. Consequatur unde magni quisquam!</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>A propos de Nous</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolore. <br> Reprehenderit molestiae consequatur iure accusamus! Eveniet commodi aut rerum nostrum modi, vitae nulla sapiente.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by <i class="fa fa-heart-o">MAMADOU_DIOUF</i></p>
+</section>
+
+
+
+<!-- javascript -->
+
+
+<script>
+    var navlinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>
